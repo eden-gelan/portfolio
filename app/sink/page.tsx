@@ -29,7 +29,7 @@ const Sink = () => {
           width={700}
           height={700}
           className=" object-cover justify-center  my-10 mx-auto"
-          src={"/images/p27.png"}
+          src={"/images/p27.jpg"}
         />
 
         <h3 className="t text-2xl font-extrabold my-5">Overview</h3>
