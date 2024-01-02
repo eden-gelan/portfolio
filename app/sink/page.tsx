@@ -24,12 +24,12 @@ const Sink = () => {
     <div>
       <Header />
       <section className=" max-w-[900px] mx-auto px-8 mt-16">
-        <Image
+      <Image
           alt=""
           width={700}
           height={700}
           className=" object-cover justify-center  my-10 mx-auto"
-          src={"/images/p28.png"}
+          src={"/images/p29.png"}
         />
 
         <h3 className="t text-2xl font-extrabold my-5">Overview</h3>
