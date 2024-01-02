@@ -15,7 +15,7 @@ const Hero = () => {
               I'm intermidate application designer with a focus on interaction
               design and design systems. With a deep understanding of the
               end-to-end product design process, I specialize in creating
-              intuitive and engaging user experiences.
+              intuitive and engaging user 
             </h4>
           </div>
           <div className="flex-1">
