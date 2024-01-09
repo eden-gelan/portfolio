@@ -12,10 +12,10 @@ const Hero = () => {
               Hello, I'm Eden ッ
             </h3>
             <h4>
-              I'm intermidate application designer with a focus on interaction
-              design and design systems. With a deep understanding of the
-              end-to-end product design process, I specialize in creating
-              intuitive and engaging user experiences.
+              I am an intermediate application designer and mobile app
+              developer, specializing in interaction design and design systems.
+              With a comprehensive grasp of the end-to-end product design
+              process.
             </h4>
           </div>
           <div className="flex-1">

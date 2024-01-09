@@ -49,4 +49,33 @@ export const projectsData = [
         imageUrl: '/images/home3.png',
         href: '/utopia'
     },
+
+    
+
+] as const;
+
+export const MobileAppsData =[
+    {
+        title: "Teraki",
+        
+        imageUrl: '/images/p13.png',
+        href: 'https://github.com/eden-gelan/Teraki'
+    },
+
+    {
+        title: "Felagi",
+        
+        imageUrl: '/images/p30.png',
+        href: 'https://github.com/eden-gelan/Felagi'
+
+
+    },
+
+    {
+        title: "Farmer app",
+        
+        imageUrl: '/images/p31.png',
+        href: 'https://github.com/eden-gelan/Mobile-Dev'
+
+    }
 ] as const;
