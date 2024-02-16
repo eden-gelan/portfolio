@@ -49,6 +49,14 @@ export const projectsData = [
         imageUrl: '/images/home3.png',
         href: '/utopia'
     },
+    {
+        title: "Kebena",
+        description:
+            "This was school project. it is made for tourists where they can find place to visit",
+        tags: ["React", "Express.js", "MongoDB", "Bootstarp",],
+        imageUrl: '/images/home3.png',
+        href: '/kebena'
+    },
 
     
 
