@@ -64,26 +64,40 @@ export const projectsData = [
 
 export const MobileAppsData =[
     {
-        title: "Teraki",
+        title: "Girl",
         
-        imageUrl: '/images/p13.png',
-        href: 'https://github.com/eden-gelan/Teraki'
+        imageUrl: '/images/Girl -50.jpg',
+        
     },
 
     {
-        title: "Felagi",
+        title: "Tower",
         
-        imageUrl: '/images/p30.png',
-        href: 'https://github.com/eden-gelan/Felagi'
+        imageUrl: '/images/Tower-50.jpg',
+       
 
 
     },
 
     {
-        title: "Farmer app",
+        title: "Bottle",
         
-        imageUrl: '/images/p31.png',
-        href: 'https://github.com/eden-gelan/Mobile-Dev'
+        imageUrl: '/images/Bottle-50.jpg',
+       
+
+    },
+    {
+        title: "Man",
+        
+        imageUrl: '/images/Project2.jpg',
+       
+
+    },
+    {
+        title: "Product poster",
+        
+        imageUrl: '/images/Project1.jpg',
+       
 
     }
 ] as const;

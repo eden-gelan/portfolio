@@ -1,23 +1,15 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import { MobileAppsData } from '../lib/constants'; // Update the path accordingly
-
+import { MobileAppsData } from "@/lib/constants"
+import GraphicsCard from "./graphicsCard"
 export default function MobileApp() {
-  return (
-    <div className='flex flex-col max-w-[900px] mx-auto mt-40 py-8 px-10'>
-      <div className=" text-3xl font-semibold mb-10">Mobile Apps</div>
+    return (
+        <div className="max-w-[900px] mx-auto mt-40 py-8 px-10 ">
+            <div className=" text-3xl font-semibold mb-10">Graphics design</div>
+            <ul role="list" className="grid grid-cols-1 gap-y-16 gap-10 sm:grid-cols-2 sm:px-0">
+                {MobileAppsData.map((graphics) => (
+                    <GraphicsCard key={graphics?.title} graphics={graphics} />
+                ))}
 
-      <div className='flex space-x-40'>
-        {MobileAppsData.map((app, index) => (
-          <Link key={index} href={app.href} className='flex flex-col items-center justify-center  '>
-       
-              <Image src={app.imageUrl} alt={app.title} width={150} height={150} />
-              <p className='text-lg font-semibold'>{app.title}</p>
-          
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
+            </ul>
+        </div>
+    )
 }
