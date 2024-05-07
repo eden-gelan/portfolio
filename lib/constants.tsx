@@ -86,18 +86,18 @@ export const MobileAppsData =[
        
 
     },
-    {
-        title: "Man",
+    // {
+    //     title: "Man",
         
-        imageUrl: '/images/Project2.jpg',
+    //     imageUrl: '/images/Project2.jpg',
        
 
-    },
-    {
-        title: "Product poster",
+    // },
+    // {
+    //     title: "Product poster",
         
-        imageUrl: '/images/Project1.jpg',
+    //     imageUrl: '/images/Project1.jpg',
        
 
-    }
+    // }
 ] as const;
